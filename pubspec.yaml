@@ -1,0 +1,48 @@
+name: dorcas_pantry
+description: "A new Flutter project."
+
+flutter_native_splash:
+  android_12:
+    color: '#FFFFFF'
+    image: 'assets/images/dorcas_pink.png'
+    web: true
+    branding: '___dorcas pantry____'
+    branding_mode: bottom
+    branding_bottom_padding: 30
+    android: true
+  
+
+
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  hexcolor: ^3.0.1
+  flutter_native_splash: ^2.4.2
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: 'launcher_icon'
+  ios: true
+  image_path: "assets/images/dorcas_pink.png"
+  min_sdk_android: 21
+  
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/
